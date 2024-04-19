@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #ff0000;
+    --tertiary-color: #dc143c;
+    --quaternary-color: #ffa500;
+    --quinary-color: #ffb300;
+    --senary-color: #0000ff;
+    --septenary-color: #008080;
+    --octonary-color: #808080;
+    --nonary-color: #d2b48c;
+    --decenary-color: #008000;
+    --undecenary-color: #7cfc00;
+    --duodecenary-color: #fff;
+    --background-color: linear-gradient(to right, #008080, #7cfc00);
+    --background2-color: linear-gradient(to right, #00ffff, #98fb98);
+    --shadow-green: rgb(0, 255, 0);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+    color: var(--primary-color);
+}
+
+
+
+h1 {
+    background-color: var(--septenary-color);
+    color: var(--duodecenary-color);
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0);
+    margin: 10px;
+}
+
+.body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: var(--decenary-color);
+    padding: 20px;
+    color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0);
+    max-width: 600px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    border-radius: 10px;
+    width: auto;
+}
+
+.img img {
+    max-width: 200px;
+    aspect-ratio: 1;
+    margin-right: 10px;
+    margin-left: 0;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.container {
+    background: var(--quaternary-color);
+    padding: 10px;
+    width: auto;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#localQuote {
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#apiQuote {
+    background: var(--undecenary-color);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.quotes {
+    background: var(--octonary-color);
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--background2-color);
+}
+
+#quote {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+#source {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--octonary-color);
+}
+
+.main-bar {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+button {
+    margin: auto;
+    color: var(--duodecenary-color);
+}
+
+i {
+    margin: 5px;
+    width: auto;
+    font-size: 38px;
+    aspect-ratio: 1;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: var(--undecenary-color);
+    text-decoration: none;
+    position: relative;
+    background: transparent;
+}
+
+.fa-github:hover {
+    color: var(--duodecenary-color);
+    background: var(--primary-color);
+}
+
+.fa-google-drive:hover {
+    color: var(--undecenary-color);
+    background: var(--duodecenary-color);
+}
+
+.fa-x-twitter:hover {
+    color: var(--duodecenary-color);
+    background: var(--primary-color);
+}
+
+.fa-whatsapp:hover {
+    color: var(--decenary-color);
+    background: var(--primary-color);
+}
+
+.fa-telegram:hover {
+    color: var(--duodecenary-color);
+    background: var(--septenary-color);
+}
+
+.fa-instagram:hover {
+    color: var(--duodecenary-color);
+    background: var(--primary-color);
+}
+
+.footer {
+    margin-bottom: 0;
+    margin: auto;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}

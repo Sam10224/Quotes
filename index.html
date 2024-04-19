@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1>Quote Generator Deluxe Edition</h1>
+    <div class="body">
+        <div class="content">
+            <div class="quotes">
+                <div id="quote"></div>
+                <div id="source"></div>
+            </div>
+            <div class="img">
+                <img id="author-image" src="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="left-bar">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-google-drive"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+            <div class="main-bar">
+                <button id="localQuote" onclick="getLocalQuote()">OFFLINE</button>
+                <button id="apiQuote" onclick="getAPIQuote()">ONLINE</button>
+            </div>
+            <div class="right-bar">
+
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                ©2024
+                Made by <NAME>Sam Jose'</NAME><br>
+            </p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
